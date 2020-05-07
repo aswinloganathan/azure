@@ -117,6 +117,7 @@ public class App {
     	}else {
 			System.out.println("Estimated monthly cost document is not downloaded");
 		}
+    	
     	Thread.sleep(3000);
     	
     	
@@ -153,8 +154,8 @@ public class App {
     	if(newEstFile.exists()){
     		System.out.println("Estimated monthly cost document is downloaded");
     	}else {
-    		System.out.println("Estimated monthly cost document is not downloaded");			
-		}
+    		System.out.println("Estimated monthly cost document is not downloaded");
+    	}
     	
     	Thread.sleep(5000);
     	driver.close();
